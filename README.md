@@ -1,0 +1,1 @@
+All training assignments will be contained within this repository.
