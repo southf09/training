@@ -4,22 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Form</title>
+    <title>Assignment One</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+    <main>
         <h1>Sign Up</h1>
-        <form action="" id="form">
-            <input type="text" placeholder="First Name"><input type="text" placeholder="Last Name">
-            <br>
-            <input type="text" placeholder="Mobile No." clas="spanTwo">
-            <br>
-            <input type="email" name="email" class="spanTwo" placeholder="Email Address">
-            <br>
-            <input type="password" name="" id="" placeholder="Password">
-            <input type="password" name="" id="" placeholder="Confirm Password">
+        <form id="form">
+            <div class="spanTwo">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div class="spanOne">
+                <input type="text" placeholder="Mobile No.">
+            </div>
+            <div class="spanOne">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="spanTwo">
+                <input type="password" placeholder="Password">
+                <input type="password" placeholder="Confirm Password">
+            </div>
+            <div class="consent">
+                <input type="checkbox" class="checkbox"><span>I Agree</span>       
+                <div>By clicking <button class="register">Register</button>, you agree to the <a href="">Terms and Conditions</a> set out by this site, including our Cookie Use.</div>
+            </div>
+            <div class="spanTwo">
+                <button class="blue-btn">Register</button>
+                <button class="green-btn">Sign In</button>
+            </div>
         </form>
-    </div>
+    </main>
 </body>
 </html>
