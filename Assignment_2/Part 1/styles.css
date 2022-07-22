@@ -20,7 +20,18 @@ body {
 
 .blog__title {
     font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
 }
+
+.blog__search {
+    height: 15px;
+    width: 15px;
+}
+
+.blog__subscribe {
+    color: gray;
+}
+
 .blog__body {
     display: flex;
     flex-direction: column;
