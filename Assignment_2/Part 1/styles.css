@@ -55,6 +55,10 @@ body {
     border-radius: 5px;
 }
 
+.blog__date {
+    color: gray;
+}
+
 .blue {
     color: blue;
 }
