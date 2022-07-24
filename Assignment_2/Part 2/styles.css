@@ -43,16 +43,92 @@ body {
     border: 1px solid gray;
 }
 
+.blog__intro {
+    padding-right: 1rem;
+}
 .blog__intro p {
     margin-top: 1rem;
+}
+
+.blog__intro > h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog__date {
+    color: gray;
 }
 
 hr {
     margin-top: 1rem;
 }
 
+.blog__topHead {
+    margin-top: 0.5rem;
+}
+.blog__topHead > p {
+    margin-top: 0.5rem;
+}
 
+.blog__subHead {
+    margin-top: 0.5rem;
+}
 
+.blog__subHead > p {
+    margin-top: 0.5rem;
+}
+
+.blog__list {
+    margin: 1rem 0 1rem 2rem;
+}
+
+.blog__buttons {
+    margin: 2rem 0 2rem 0;
+}
+
+.blog__buttons button {
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+
+.button__older {
+    border: 1px solid rgb(45, 45, 179);
+    color: rgb(45, 45, 179);
+}
+
+.button__newer {
+    border: 1px solid gray;
+    color: gray;
+}
+
+.blog__resources {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.blog__resources a {
+    margin-top: 0.3rem;
+}
+.blog__about {
+    background-color: rgb(233, 227, 227);
+    padding: 1rem;
+}
+
+.blog__archives {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.blog__socials {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
 
 .blog__footer {
     background-color: rgb(233, 227, 227);
