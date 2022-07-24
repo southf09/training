@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.blog__header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.blog__title {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+}
+
+.blog__search {
+    height: 15px;
+    width: 15px;
+}
+
+.blog__subscribe {
+    color: gray;
+}
+
+
+.blog__content {
+    display: flex;
+    align-content: space-between;
+}
+
+
+.blog__block {
+    border: 1px solid gray;
+}
+
+.blog__intro p {
+    margin-top: 1rem;
+}
+
+hr {
+    margin-top: 1rem;
+}
+
+
+
+
+.blog__footer {
+    background-color: rgb(233, 227, 227);
+    color: gray;
+    height: 100px;
+    border-top: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
